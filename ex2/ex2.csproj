@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3D4EE293-3841-46C9-A64E-203275CB7EAF}</ProjectGuid>
+    <ProjectGuid>{E4E8DC24-AC4B-443F-87A8-F56676CA989B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex1</RootNamespace>
-    <AssemblyName>ex1</AssemblyName>
+    <RootNamespace>ex2</RootNamespace>
+    <AssemblyName>ex2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="OrderItem.cs" />
+    <Compile Include="ITransaction.cs" />
+    <Compile Include="PaidWithCard.cs" />
+    <Compile Include="PaidWithCash.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
